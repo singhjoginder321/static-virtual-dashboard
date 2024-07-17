@@ -1047,6 +1047,10 @@ body {
     /* scroll-behavior: auto; */
   }
 
+  .profile-info{
+    margin: 3px 11px;
+  }
+
   .full-section {
     display: flex;
     flex-direction: column;
@@ -1093,6 +1097,13 @@ body {
     width: 94vw;
   }
 
+  .box{
+    margin-left: 151px;
+  }
+
+  .y-grid-label{
+    left: -6px;
+  }
   .search-bar {
     width: 100%;
     margin-left: 19px;
@@ -1103,7 +1114,7 @@ body {
   }
 
   .chart {
-    margin-left: 123px;
+    margin-left: 100px;
   }
 
   .bar {
@@ -1119,7 +1130,7 @@ body {
   }
 
   .stats-container {
-    margin-top: 222px;
+    margin-top: 305px;
     margin-left: -115px;
     margin-right: 76px;
   }
@@ -1145,7 +1156,7 @@ body {
   }
 
   .audit-container {
-    margin-left: -30px;
+    margin-left: -50px;
     margin-top: 20px;
   }
 }
