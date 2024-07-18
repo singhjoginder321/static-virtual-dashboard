@@ -26,15 +26,17 @@
             <p class="profile-name">Joginder Singh</p>
             <p class="profile-role">Software Engineer</p>
           </div>
-          <div class="profile-menu">
-            <img class="menu-icon" src="assets/menu-icon.svg" alt="Menu Icon" />
-          </div>
+          <button id="menu-button">
+            <div class="profile-menu">
+              <img class="menu-icon" id="menu-icon" src="assets/menu-icon.svg" alt="Menu Icon" />
+            </div>
+          </button>
         </div>
       </div>
 
       <div class="content">
         <!-- Sidebar -->
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
           <div class="logo-container">
             <img src="assets/logo.svg" alt="Logo" class="logo">
             <p class="logo-text">Virtual Dashboard</p>
@@ -68,6 +70,24 @@
           </div>
         </div>
 
+        <div class="navbar hidden" id="navbar">
+          <ul class=".sidebar-menu-responsive">
+            <li class="sidebar-item"><a href="#"><img src="assets/dashboard-icon.svg" alt="Icon" class="menu-icon">
+                Dashboard</a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/profile-icon.svg" alt="Icon" class="menu-icon">
+                Profile</a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/utilities-icon.svg" alt="Icon" class="menu-icon">
+                Utilities</a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/setting-icon.svg" alt="Icon" class="menu-icon">
+                Settings</a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/message-icon.svg" alt="Icon" class="menu-icon">
+                Messages <span class="badge">12</span></a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/analytics-icon.svg" alt="Icon" class="menu-icon">
+                Analytics</a></li>
+            <li class="sidebar-item"><a href="#"><img src="assets/integration-icon.svg" alt="Icon" class="menu-icon">
+                Integrations</a></li>
+          </ul>
+        </div>
         <div class="full-section">
           <!-- Dashboard -->
           <div class="dashboard-section">
@@ -371,6 +391,7 @@
         </div>
 
       </div>
+      <script src="script.js"></script>
 </body>
 
 </html>
